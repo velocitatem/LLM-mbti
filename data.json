@@ -1,0 +1,772 @@
+[
+    {
+        "question": "At a party do you:",
+        "options": [
+            "Interact with many, including strangers",
+            "Interact with a few, known to you"
+        ],
+        "weights": [
+            "e",
+            "i"
+        ]
+    },
+    {
+        "question": "Are you more:",
+        "options": [
+            "Realistic than speculative",
+            "Speculative than realistic"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Is it worse to:",
+        "options": [
+            "Have your \u201chead in the clouds\u201d",
+            "Be \u201cin a rut\u201d"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Are you more impressed by:",
+        "options": [
+            "Principles",
+            "Emotions"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Are more drawn toward the:",
+        "options": [
+            "Convincing",
+            "Touching"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Do you prefer to work:",
+        "options": [
+            "To deadlines",
+            "Just \u201cwhenever\u201d"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Do you tend to choose:",
+        "options": [
+            "Rather carefully",
+            "Somewhat impulsively"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "At parties do you:",
+        "options": [
+            "Stay late, with increasing energy",
+            "Leave early with decreased energy"
+        ],
+        "weights": [
+            "e",
+            "i"
+        ]
+    },
+    {
+        "question": "Are you more attracted to:",
+        "options": [
+            "Sensible people",
+            "Imaginative people"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Are you more interested in:",
+        "options": [
+            "What is actual",
+            "What is possible"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "In judging others are you more swayed by:",
+        "options": [
+            "Laws than circumstances",
+            "Circumstances than laws"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "In approaching others is your inclination to be somewhat:",
+        "options": [
+            "Objective",
+            "Personal"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Are you more:",
+        "options": [
+            "Punctual",
+            "Leisurely"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Does it bother you more having things:",
+        "options": [
+            "Incomplete",
+            "Completed"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "In your social groups do you:",
+        "options": [
+            "Keep abreast of other\u2019s happenings",
+            "Get behind on the news"
+        ],
+        "weights": [
+            "e",
+            "i"
+        ]
+    },
+    {
+        "question": "In doing ordinary things are you more likely to:",
+        "options": [
+            "Do it the usual way",
+            "Do it your own way"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Writers should:",
+        "options": [
+            "Say what they mean and mean what they say",
+            "Express things more by use of analogy"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Which appeals to you more:",
+        "options": [
+            "Consistency of thought",
+            "Harmonious human relationships"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Are you more comfortable in making:",
+        "options": [
+            "Logical judgments",
+            "Value judgments"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Do you want things:",
+        "options": [
+            "Settled and decided",
+            "Unsettled and undecided"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Would you say you are more:",
+        "options": [
+            "Serious and determined",
+            "Easy-going"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "In phoning do you:",
+        "options": [
+            "Rarely question that it will all be said",
+            "Rehearse what you\u2019ll say"
+        ],
+        "weights": [
+            "e",
+            "i"
+        ]
+    },
+    {
+        "question": "Facts:",
+        "options": [
+            "Speak for themselves",
+            "Illustrate principles"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Are visionaries:",
+        "options": [
+            "somewhat annoying",
+            "rather fascinating"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Are you more often:",
+        "options": [
+            "a cool-headed person",
+            "a warm-hearted person"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Is it worse to be:",
+        "options": [
+            "unjust",
+            "merciless"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Should one usually let events occur:",
+        "options": [
+            "by careful selection and choice",
+            "randomly and by chance"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Do you feel better about:",
+        "options": [
+            "having purchased",
+            "having the option to buy"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "In company do you:",
+        "options": [
+            "initiate conversation",
+            "wait to be approached"
+        ],
+        "weights": [
+            "e",
+            "i"
+        ]
+    },
+    {
+        "question": "Common sense is:",
+        "options": [
+            "rarely questionable",
+            "frequently questionable"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Children often do not:",
+        "options": [
+            "make themselves useful enough",
+            "exercise their fantasy enough"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "In making decisions do you feel more comfortable with:",
+        "options": [
+            "standards",
+            "feelings"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Are you more:",
+        "options": [
+            "firm than gentle",
+            "gentle than firm"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Which is more admirable:",
+        "options": [
+            "the ability to organize and be methodical",
+            "the ability to adapt and make do"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Do you put more value on:",
+        "options": [
+            "infinite",
+            "open-minded"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Does new and non-routine interaction:",
+        "options": [
+            "stimulate and energize you",
+            "tax your reserves"
+        ],
+        "weights": [
+            "e",
+            "i"
+        ]
+    },
+    {
+        "question": "Are you more frequently:",
+        "options": [
+            "a practical sort of person",
+            "a fanciful sort of person"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Are you more likely to:",
+        "options": [
+            "see how others are useful",
+            "see how others see"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Which is more satisfying:",
+        "options": [
+            "to discuss an issue thoroughly",
+            "to arrive at agreement on an issue"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Which rules you more:",
+        "options": [
+            "your head",
+            "your heart"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Are you more comfortable with work that:",
+        "options": [
+            "contracted",
+            "done on a casual basis"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Do you tend to look for:",
+        "options": [
+            "the orderly",
+            "whatever turns up"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Do you prefer:",
+        "options": [
+            "many friends with brief contact",
+            "a few friends with more lengthy contact"
+        ],
+        "weights": [
+            "e",
+            "i"
+        ]
+    },
+    {
+        "question": "Do you go more by:",
+        "options": [
+            "facts",
+            "principles"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Are you more interested in:",
+        "options": [
+            "production and distribution",
+            "design and research"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Which is more of a compliment:",
+        "options": [
+            "\u201cThere is a very logical person.\u201d",
+            "\u201cThere is a very sentimental person.\u201d"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Do you value in yourself more that you are:",
+        "options": [
+            "unwavering",
+            "devoted"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Do you more often prefer the:",
+        "options": [
+            "final and unalterable statement",
+            "tentative and preliminary statement"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Are you more comfortable:",
+        "options": [
+            "after a decision",
+            "before a decision"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Do you:",
+        "options": [
+            "speak easily and at length with strangers",
+            "find little to say to strangers"
+        ],
+        "weights": [
+            "e",
+            "i"
+        ]
+    },
+    {
+        "question": "Are you more likely to trust your:",
+        "options": [
+            "experience",
+            "hunch"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Do you feel:",
+        "options": [
+            "more practical than ingenious",
+            "more ingenious than practical"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Which person is more to be complimented \u2013 one of:",
+        "options": [
+            "clear reason",
+            "strong feeling"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Are you inclined more to be:",
+        "options": [
+            "fair-minded",
+            "sympathetic"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Is it preferable mostly to:",
+        "options": [
+            "make sure things are arranged",
+            "just let things happen"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "In relationships should most things be:",
+        "options": [
+            "re-negotiable",
+            "random and circumstantial"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "When the phone rings do you:",
+        "options": [
+            "hasten to get to it first",
+            "hope someone else will answer"
+        ],
+        "weights": [
+            "e",
+            "i"
+        ]
+    },
+    {
+        "question": "Do you prize more in yourself:",
+        "options": [
+            "a strong sense of reality",
+            "a vivid imagination"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Are you drawn more to:",
+        "options": [
+            "fundamentals",
+            "overtones"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Which seems the greater error:",
+        "options": [
+            "to be too passionate",
+            "to be too objective"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Do you see yourself as basically:",
+        "options": [
+            "hard-headed",
+            "soft-hearted"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Which situation appeals to you more:",
+        "options": [
+            "the structured and scheduled",
+            "the unstructured and unscheduled"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Are you a person that is more:",
+        "options": [
+            "routinized than whimsical",
+            "whimsical than routinized"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Are you more inclined to be:",
+        "options": [
+            "easy to approach",
+            "somewhat reserved"
+        ],
+        "weights": [
+            "e",
+            "i"
+        ]
+    },
+    {
+        "question": "In writings do you prefer:",
+        "options": [
+            "the more literal",
+            "the more figurative"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Is it harder for you to:",
+        "options": [
+            "identify with others",
+            "utilize others"
+        ],
+        "weights": [
+            "s",
+            "n"
+        ]
+    },
+    {
+        "question": "Which do you wish more for yourself:",
+        "options": [
+            "clarity of reason",
+            "strength of compassion"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Which is the greater fault:",
+        "options": [
+            "being indiscriminate",
+            "being critical"
+        ],
+        "weights": [
+            "t",
+            "f"
+        ]
+    },
+    {
+        "question": "Do you prefer the:",
+        "options": [
+            "planned event",
+            "unplanned event"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    },
+    {
+        "question": "Do you tend to be more:",
+        "options": [
+            "deliberate than spontaneous",
+            "spontaneous than deliberate"
+        ],
+        "weights": [
+            "j",
+            "p"
+        ]
+    }
+]
