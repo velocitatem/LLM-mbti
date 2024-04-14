@@ -1,5 +1,8 @@
 import openai
 import json
+from langchain.agents.openai_assistant import OpenAIAssistantRunnable
+from langchain.agents import AgentExecutor
+from langchain_core.messages import AIMessage, HumanMessage
 
 # load data.json
 with open('data.json') as f:
@@ -19,29 +22,51 @@ with open('data.json') as f:
 # },
 
 
+ASSISTANT_ID = "asst_6MfY2bV0tjC7aPZPYxABZSna"
+
+agent = OpenAIAssistantRunnable(assistant_id=ASSISTANT_ID,
+                                as_agent=True)
+agent_executor = AgentExecutor(agent=agent,
+                               tools=[],
+                               verbose=False)
+thread = None
 def answer_question(obj):
+    global thread
     # obj is a dictionary with keys: question, options, weights
     # options is a list of strings
     # weights is a list of strings
     # question is a string
     # return a string
     promptString = f"{obj['question']}\n 1. {obj['options'][0]}\n 2. {obj['options'][1]}\nRespond with the number of the option you prefer. You must respond.\nNumber:"
-    ans = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=promptString,
-        temperature=0.8,
-        max_tokens=1,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0,
-    )
-    output = ans['choices'][0]['text'].strip()
-    print(promptString)
-    print(output)
-    return obj['weights'][int(ans['choices'][0]['text']) - 1]
+    inp = {
+        "content": promptString
+    }
+    if thread:
+        inp["thread_id"] = thread
+    response = agent_executor.invoke(inp)
+    if not thread:
+        thread = response['thread_id']
+    # get the response from the user
+    r = response['output']
+    # extract the integer any int, response might be ex: 1. Bla Bla
+    ints = [int(s) for s in r.split() if s.isdigit()]
+    if len(ints) == 0:
+        # if no integer is found, return the first option
+        return obj['weights'][0]
+    # if an integer is found, return the corresponding weight
+    return obj['weights'][ints[0] - 1]
+
+
+
+
 
 weighted_answers = []
-for item in data:
+# sample 50% of the data
+import random
+data = random.sample(data, int(len(data) / 2))
+print(len(data))
+import tqdm
+for item in tqdm.tqdm(data):
     try:
         weight_answer = answer_question(item)
         weighted_answers.append(weight_answer)
